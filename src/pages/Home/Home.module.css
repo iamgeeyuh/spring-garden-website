@@ -1,0 +1,17 @@
+.home {
+  width: 100%;
+}
+
+.home div {
+  border: solid;
+  display: inline-block;
+  width: 50%;
+}
+
+.home p {
+  font-weight: bold;
+}
+
+.home h1 {
+  font-size: 100px;
+}
