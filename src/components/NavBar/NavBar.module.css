@@ -1,0 +1,27 @@
+.nav {
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 20px 20px 10px 20px;
+  font-size: 1.25rem;
+}
+
+.nav a {
+  color: grey;
+  font-weight: bold;
+  text-decoration: none;
+  padding-bottom: 10px;
+  transition: color 0.15s border-bottom 0.15s;
+}
+
+.nav a.active {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.nav a:hover {
+  color: black;
+}
