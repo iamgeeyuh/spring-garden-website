@@ -1,9 +1,9 @@
-import styles from "./HomeMap.module.css";
+import styles from "./Map.module.css";
 
 const Map = () => {
   return (
     <div className={styles.mapouter}>
-      <div className={styles.gmap_canvas}>
+      <div className={styles.gmapCanvas}>
         <iframe
           width="100%"
           height="450vh"

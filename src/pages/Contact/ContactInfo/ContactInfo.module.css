@@ -1,0 +1,27 @@
+.contactInfo {
+  position: fixed;
+  top: 30rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  z-index: 1;
+  background-color: rgb(230, 229, 229);
+  color: black;
+  text-align: center;
+}
+
+.contactInfo div {
+  width: 60%;
+  margin: auto;
+}
+
+.contactInfo h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.contactInfo a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}

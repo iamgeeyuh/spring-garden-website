@@ -1,7 +1,7 @@
 import styles from "./Home.module.css";
 import img from "../../img/spread.jpg";
 import { Link } from "react-router-dom";
-import HomeMap from "./HomeMap/HomeMap";
+import Map from "../../components/Map/Map";
 import HomeContact from "./HomeContact/HomeContact";
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
         <img src={img} alt="A table full of Chinese food."></img>
       </div>
       <HomeContact />
-      <HomeMap />
+      <Map />
     </div>
   );
 };
