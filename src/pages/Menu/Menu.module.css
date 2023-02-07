@@ -1,0 +1,13 @@
+.menu h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+}
+
+.menu img {
+  display: inline-block;
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
