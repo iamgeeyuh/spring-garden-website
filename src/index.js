@@ -2,13 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import { CartContextProvider } from "./store/cart-context";
+import { MenuContextProvider } from "./store/menu-context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <CartContextProvider>
+  <MenuContextProvider>
     <App />
-  </CartContextProvider>
+  </MenuContextProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

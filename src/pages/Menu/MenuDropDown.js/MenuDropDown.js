@@ -1,19 +1,13 @@
-import { useContext, useState } from "react";
-import CartContext from "../../../store/cart-context";
+import { useContext } from "react";
+import MenuContext from "../../../store/menu-context";
 
 const MenuDropDown = (props) => {
-  const ctx = useContext(CartContext);
-
-  const [option, setOption] = useState(props.name);
-
-  const changeHandler = (event) => {
-    setOption(event.target.value);
-  };
+  const ctx = useContext(MenuContext);
 
   return (
-    <select value={option} onChange={changeHandler}>
-      {ctx.menu.map((section) => (
-        <option value={section.section} key={section.id}>
+    <select value={ctx.location} onChange={ctx.locationHandler}>
+      {ctx.menu.map((section, index) => (
+        <option value={index} key={section.id}>
           {section.section}
         </option>
       ))}

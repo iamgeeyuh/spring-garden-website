@@ -1,7 +1,7 @@
 class Menu {
   constructor(name) {
     this._name = name;
-    this._id = Math.floor(Math.random() * 10000);
+    this._id = Math.floor(Math.random() * 1000000000);
   }
 
   get name() {
@@ -35,7 +35,7 @@ class Fried extends Menu {
   get prices() {
     let base;
 
-    if (this._large == 0) {
+    if (this._large === 0) {
       base = {
         plain: this._small,
       };
@@ -45,7 +45,7 @@ class Fried extends Menu {
         large: this._large,
       };
     }
-    if (this._riceFries == 0) {
+    if (this._riceFries === 0) {
       return base;
     } else {
       return {
@@ -71,7 +71,7 @@ class SmallLarge extends Menu {
   }
 
   get prices() {
-    if (this._large == 0) {
+    if (this._large === 0) {
       return { small: this._small };
     }
     return { small: this._small, large: this._large };
@@ -84,13 +84,13 @@ class SmallLarge extends Menu {
 
 class PintQuart extends Menu {
   constructor(name, large, small = 0) {
-    super(name, section);
+    super(name);
     this._large = large;
     this._small = small;
   }
 
   get prices() {
-    if (this._small == 0) {
+    if (this._small === 0) {
       return { large: this._large };
     }
     return { small: this._small, large: this._large };
@@ -99,7 +99,7 @@ class PintQuart extends Menu {
 
 class Soda extends Menu {
   constructor(name, size) {
-    super(name, "SODA");
+    super(name);
     this._size = size;
   }
 
