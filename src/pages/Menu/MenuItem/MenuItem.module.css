@@ -1,0 +1,12 @@
+.menuItem {
+  display: inline-block;
+  width: 50%;
+  padding: 0.5rem;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgb(202, 202, 202);
+}
+
+.menuItem h4 {
+  margin: 10px;
+}

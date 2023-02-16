@@ -1,0 +1,24 @@
+.cart {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 0.5rem;
+  right: 3rem;
+  border: none;
+  background-color: var(--main-red);
+  color: white;
+  cursor: pointer;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  transition: background-color 0.15s;
+}
+
+.cart:hover {
+  background-color: var(--hover-red);
+}
+
+.cart p {
+  font-weight: bold;
+  font-size: 1rem;
+  padding-right: 0.25rem;
+}

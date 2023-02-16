@@ -13,7 +13,7 @@ const Home = () => {
           <h1>Spring Garden</h1>
           <Link to="/Menu">View Menu</Link>
         </div>
-        <img src={img} c></img>
+        <img src={img} alt="A table full of food."></img>
       </div>
       <HomeContact />
       <Map />
