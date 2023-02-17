@@ -5,9 +5,10 @@
   transform: translate(-50%, -50%);
   width: 40%;
   z-index: 1;
-  background-color: rgb(230, 229, 229);
-  color: black;
+  background-color: var(--main-red);
+  color: white;
   text-align: center;
+  padding: 1rem;
 }
 
 .contactInfo div {
@@ -21,7 +22,7 @@
 }
 
 .contactInfo a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
