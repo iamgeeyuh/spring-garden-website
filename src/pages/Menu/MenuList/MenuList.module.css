@@ -3,3 +3,24 @@
   top: 0;
   align-self: start;
 }
+
+.menuList ul {
+  list-style-type: none;
+}
+
+.menuList a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 3rem;
+  width: 100%;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.menuList a:hover {
+  color: white;
+  background-color: var(--main-red);
+}
+
